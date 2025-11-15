@@ -17,7 +17,7 @@ function Footer() {
                     </p>
 
                     <p className="hover:text-white transition">
-                        <a href="tel:+2348035837203">+234 808035837203</a>
+                        <a href="tel:+2348035837203">+234 8035837203</a>
                     </p>
                 </div>
 
