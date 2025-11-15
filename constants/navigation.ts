@@ -9,8 +9,8 @@ export const navigationOnLargeScreen = [
 
 
 export const navigationOnMobile = [
-    { name: 'Home', href: '/#' },
-    { name: 'About', href: '/#' },
+    { name: 'Services', href: '/#' },
+    // { name: 'About', href: '/#' },
     { name: 'Gallery', href: '#' }
 ];
 
