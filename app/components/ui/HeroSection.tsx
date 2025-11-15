@@ -46,14 +46,25 @@ const HeroSection = () => {
                         </h2>
 
                         <p className="text-center text-neutral-700">
-                            Cheers to another 25,568+ OO-K?  
+                            Cheers to another 25,568+ OO-K?
                         </p>
                     </div>
                 </div>
             )}
 
             {/* === existing hero section === */}
+
             <section className="bg-neutral-950 pt-40 pb-2">
+
+                <div className="flex justify-center mt-6 block md:hidden">
+                    <img
+                        src="/asael.jpg"
+                        alt="logo"
+                        className="rounded-full w-20 h-20"
+                    />
+                </div>
+
+
                 <div className="py-20">
                     <section className="hero-status-container flex flex-col items-center mb-3">
                         <span className="hero-status-bitmoji mb-2"><img className="w-14 h-14 hover:scale-105 transition-all duration-1000 rounded-full"
@@ -64,7 +75,7 @@ const HeroSection = () => {
                             Reach Out & Book Us Now
                         </div>
                     </section>
-                    <header className="text-white font-semibold text-6xl text-center">We Create <br />Unforgettable <span className="bg-gradient-to-r from-pink-500 to-yellow-300 text-transparent bg-clip-text"> 
+                    <header className="text-white font-semibold text-6xl text-center">We Create <br />Unforgettable <span className="bg-gradient-to-r from-pink-500 to-yellow-300 text-transparent bg-clip-text">
                         <i>Events</i>
                     </span></header>
                     <p className="text-center text-gray-300 text-sm font-mono mt-4">
