@@ -56,11 +56,11 @@ const HeroSection = () => {
 
             <section className="bg-neutral-950 pt-40 pb-2">
 
-                <div className="flex justify-center mt-6 block md:hidden">
+                <div className="flex justify-center mt-6 block md:hidden px-16">
                     <img
                         src="/asael.jpg"
                         alt="logo"
-                        className="rounded-full w-20 h-20"
+                        className=" rounded-full w-25 h-25 object-contain"
                     />
                 </div>
 
@@ -75,8 +75,8 @@ const HeroSection = () => {
                             Reach Out & Book Us Now
                         </div>
                     </section>
-                    <header className="text-white font-semibold text-6xl text-center">We Create <br />Unforgettable <span className="bg-gradient-to-r from-pink-500 to-yellow-300 text-transparent bg-clip-text">
-                        <i>Events</i>
+                    <header className="text-white font-semibold text-6xl text-center">We Create <br />Beautiful <span className="bg-gradient-to-r from-pink-500 to-yellow-300 text-transparent bg-clip-text">
+                        <i>Memories</i>
                     </span></header>
                     <p className="text-center text-gray-300 text-sm font-mono mt-4">
                         From weddings to corporate parties, we handle everything beautifully
