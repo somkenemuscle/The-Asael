@@ -1,7 +1,7 @@
 export const Hero_Section_videos = [
     'https://t4bg270yk4.ufs.sh/f/yvg0jlQbOFCv7VJS8wv5J7rlitamHxv1YpEBhwGDuqgR6Nso',
     'https://t4bg270yk4.ufs.sh/f/yvg0jlQbOFCvviQuwe2REWwt3yr0lDMu79qoanp1HCGgkJK5',
-    '/vid1.mov',
+    'https://t4bg270yk4.ufs.sh/f/yvg0jlQbOFCvMwdHw2AdDMrCx8Ao5WcalQBIhg6ktvS3Ebyi',
     'https://t4bg270yk4.ufs.sh/f/yvg0jlQbOFCvTZRSw3CZK4ityg1xukQlzMF7DjfXsO9d8VRa',
 ];
 
