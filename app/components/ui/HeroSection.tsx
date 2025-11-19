@@ -5,7 +5,6 @@ import { useEffect, useState } from "react";
 import { Hero_Section_videos } from "@/constants/videos";
 
 const HeroSection = () => {
-    const [showPopup, setShowPopup] = useState(false);
 
     useEffect(() => {
         // confetti burst
@@ -15,42 +14,12 @@ const HeroSection = () => {
             origin: { x: 0.5, y: 1 },
         });
 
-        // show popup after slight delay
-        setTimeout(() => {
-            setShowPopup(true);
-        }, 600);
+       
     }, []);
 
     return (
         <>
-            {/* Popup Modal */}
-            {showPopup && (
-                <div
-                    className="fixed inset-0 bg-black/60 backdrop-blur-sm flex items-center justify-center z-50 animate-fade"
-                    onClick={() => setShowPopup(false)}
-                >
-                    <div
-                        className="bg-white text-neutral-900 rounded-2xl p-6 max-w-sm w-[90%] shadow-xl relative animate-popup"
-                        onClick={(e) => e.stopPropagation()}
-                    >
-                        {/* Close Button */}
-                        <button
-                            className="absolute top-3 right-4 text-2xl leading-none text-neutral-600 hover:text-black"
-                            onClick={() => setShowPopup(false)}
-                        >
-                            ×
-                        </button>
-
-                        <h2 className="text-xl font-semibold mb-2 text-center">
-                            Happy 10,958 days Obianuju 🎉
-                        </h2>
-
-                        <p className="text-center text-neutral-700">
-                            Cheers to another 25,568+ OO-K?
-                        </p>
-                    </div>
-                </div>
-            )}
+          
 
             {/* === existing hero section === */}
 
